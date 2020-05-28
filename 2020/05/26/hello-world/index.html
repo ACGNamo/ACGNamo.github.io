@@ -5,6 +5,7 @@
   
 
 
+
 <html class="theme-next pisces use-motion" lang="zh-Hans">
 <head>
   <meta charset="UTF-8"/>
@@ -199,7 +200,7 @@
         <li class="menu-item menu-item-home">
           <a href="/" rel="section">
             
-              <i class="menu-item-icon fa fa-fw fa-question-circle"></i> <br />
+              <i class="menu-item-icon fa fa-fw fa-home"></i> <br />
             
             首页
           </a>
@@ -209,7 +210,7 @@
         <li class="menu-item menu-item-about">
           <a href="/about/" rel="section">
             
-              <i class="menu-item-icon fa fa-fw fa-question-circle"></i> <br />
+              <i class="menu-item-icon fa fa-fw fa-user"></i> <br />
             
             关于我
           </a>
@@ -219,7 +220,7 @@
         <li class="menu-item menu-item-archives">
           <a href="/archives/" rel="section">
             
-              <i class="menu-item-icon fa fa-fw fa-question-circle"></i> <br />
+              <i class="menu-item-icon fa fa-fw fa-archive"></i> <br />
             
             记录
           </a>
@@ -229,7 +230,7 @@
         <li class="menu-item menu-item-xuexiqd">
           <a href="/" rel="section">
             
-              <i class="menu-item-icon fa fa-fw fa-question-circle"></i> <br />
+              <i class="menu-item-icon fa fa-fw fa-graduation-cap"></i> <br />
             
             前端学习路
           </a>
@@ -239,7 +240,7 @@
         <li class="menu-item menu-item-xuexiwl">
           <a href="/" rel="section">
             
-              <i class="menu-item-icon fa fa-fw fa-question-circle"></i> <br />
+              <i class="menu-item-icon fa fa-fw fa-graduation-cap"></i> <br />
             
             网络学习路
           </a>
@@ -476,6 +477,13 @@
   </div>
 
   <aside id="sidebar" class="sidebar">
+  <div id="">
+  <canvas id="canvas" style="width:60%;">
+</div>
+
+<!--粒子时钟js-->
+<script type="text/javascript" src="/js/src/canvas-dance-time.js"></script>
+
     
     <div class="sidebar-inner">
 
@@ -503,7 +511,7 @@
                 </a>
             
               <p class="site-author-name" itemprop="name">Yokanamo</p>
-              <p class="site-description motion-element" itemprop="description">好记性不如烂笔头                                     好妄想不如多码码</p>
+              <p class="site-description motion-element" itemprop="description">好记性不如烂笔头                                     好妄想不如多码码千里之路                                      始於初步 谨言慎行 君子之道 我是Namo 我为自己带盐</p>
           </div>
 
           <nav class="site-state motion-element">
@@ -511,7 +519,7 @@
             
               <div class="site-state-item site-state-posts">
               
-                <a href="/archives/">
+                <a href="/archives/%7C%7C%20archive">
               
                   <span class="site-state-item-count">1</span>
                   <span class="site-state-item-name">日志</span>
@@ -540,13 +548,25 @@
                   <span class="links-of-author-item">
                     <a href="mailto:2556996958@qq.com" target="_blank" title="我的邮箱">
                       
-                        <i class="fa fa-fw fa-envelope-icon"></i>我的邮箱</a>
+                        <i class="fa fa-fw fa-envelope"></i>我的邮箱</a>
                   </span>
                 
                   <span class="links-of-author-item">
-                    <a href="https://space.bilibili.com/11509668" target="_blank" title="Bilibili">
+                    <a href="https://space.bilibili.com/11509668" target="_blank" title="BiliBili">
                       
-                        <i class="fa fa-fw fa-globe"></i>Bilibili</a>
+                        <i class="fa fa-fw fa-bed"></i>BiliBili</a>
+                  </span>
+                
+                  <span class="links-of-author-item">
+                    <a href="https://steamcommunity.com/profiles/76561197964724434/" target="_blank" title="Steam">
+                      
+                        <i class="fa fa-fw fa-steam-square"></i>Steam</a>
+                  </span>
+                
+                  <span class="links-of-author-item">
+                    <a href="https://me.csdn.net/blog/qq_38718788" target="_blank" title="CSDN">
+                      
+                        <i class="fa fa-fw fa-commenting-o"></i>CSDN</a>
                   </span>
                 
             </div>
@@ -692,7 +712,7 @@
 
   
   
-    <script type="text/javascript" src="/lib/jquery/index.js?v=2.1.3"></script>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/jquery/2.1.3/jquery.min.js"></script>
   
 
   
@@ -1129,6 +1149,9 @@
 
   
 
+
+  <script src="/live2d-widget/autoload.js"></script>
   <script type="text/javascript" src="/js/src/namosucai1.js"></script>
-<script src="/live2dw/lib/L2Dwidget.min.js?094cbace49a39548bed64abff5988b05"></script><script>L2Dwidget.init({"pluginRootPath":"live2dw/","pluginJsPath":"lib/","pluginModelPath":"assets/","tagMode":false,"debug":false,"model":{"jsonPath":"/live2dw/assets/nico.model.json"},"display":{"position":"right","width":300,"height":600},"mobile":{"show":true},"react":{"opacity":0.7},"log":false});</script></body>
+
+<script src="/live2dw/lib/L2Dwidget.min.js?094cbace49a39548bed64abff5988b05"></script><script>L2Dwidget.init({"pluginRootPath":"live2dw/","pluginJsPath":"lib/","pluginModelPath":"assets/","tagMode":false,"debug":false,"model":{"jsonPath":"live2d-widget-model-nico"},"display":{"position":"right","width":300,"height":600},"mobile":{"show":true},"react":{"opacity":0.7},"log":false});</script></body>
 </html>

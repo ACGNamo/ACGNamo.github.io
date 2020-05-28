@@ -1952,7 +1952,7 @@ img:hover {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #326282;
+  background: #0b5470;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -3121,57 +3121,60 @@ img:hover {
   }
 }
 body {
+/* 鼠标样式 */
+/* webkit, opera, IE9 */
+/* firefox */
   background-image: url("http://b242.photo.store.qq.com/psb?/V11lK1gJ0lNi5u/ixUfB5aScLHZODN1Dwwey7KYYKVdGeKf16kLCyEjeZc!/b/dPIAAAAAAAAA&bo=gAc4BAAAAAARB4s!&rf=viewer_4");
 }
-.headband {
+body .headband {
   display: none;
 }
-.post {
+body .post {
   margin-top: 60px;
   margin-bottom: 60px;
   padding: 25px;
   -webkit-box-shadow: 0 0 5px rgba(202,203,203,0.5);
   -moz-box-shadow: 0 0 5px rgba(202,203,204,0.5);
 }
-* {
+body * {
   cursor: url("/images/Aero_arrow.cur"), auto;
 }
-:link {
+body :link {
   cursor: url("/images/Aero_Helpsel.cur"), auto;
 }
-::selection {
+body ::selection {
   background: #00c4b6;
   color: #f7f7f7;
 }
-::-moz-selection {
+body ::-moz-selection {
   background: #00c4b6;
   color: #f7f7f7;
 }
-.headband {
+body .headband {
   height: 3px;
   background: linear-gradient(to right, #f00, #ff0);
 }
-.site-meta {
+body .site-meta {
   padding: 40px 0;
   color: #fff;
   background: linear-gradient(to right, LightSteelBlue, MediumTurquoise);
 }
-.site-subtitle {
+body .site-subtitle {
   margin-top: 10px;
   font-size: 13px;
   color: #fff;
 }
-.btn {
+body .btn {
   color: #49b1f5;
   background: #fff;
   border: 4px solid #49b1f5;
 }
-.btn:hover {
+body .btn:hover {
   border-color: #49b1f5;
   color: #fff;
   background: #49b1f5;
 }
-.posts-expand .post-title-link::before {
+body .posts-expand .post-title-link::before {
   content: "";
   position: absolute;
   width: 100%;

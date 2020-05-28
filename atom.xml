@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://acgnamo.github.io/"/>
-  <updated>2020-05-27T01:02:39.574Z</updated>
+  <updated>2020-05-28T15:06:27.887Z</updated>
   <id>https://acgnamo.github.io/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="https://acgnamo.github.io/2020/05/26/hello-world/"/>
     <id>https://acgnamo.github.io/2020/05/26/hello-world/</id>
     <published>2020-05-26T12:52:43.121Z</published>
-    <updated>2020-05-27T01:02:39.574Z</updated>
+    <updated>2020-05-28T15:06:27.887Z</updated>
     
     <content type="html"><![CDATA[<h2 id="Live2D的坑"><a href="#Live2D的坑" class="headerlink" title="Live2D的坑"></a>Live2D的坑</h2><h3 id="国内网络不行，npm-下载Live2D-永远失败，最后通过官方文档利用Yarn来进行下载"><a href="#国内网络不行，npm-下载Live2D-永远失败，最后通过官方文档利用Yarn来进行下载" class="headerlink" title="国内网络不行，npm 下载Live2D 永远失败，最后通过官方文档利用Yarn来进行下载"></a>国内网络不行，npm 下载Live2D 永远失败，最后通过官方文档利用Yarn来进行下载</h3><p>Yarn官网: <a href="https://yarn.bootcss.com/" target="_blank" rel="noopener">Yarn</a><br>作者Live2D作品地址<a href="https://github.com/EYHN/hexo-helper-live2d/blob/master/README.zh-CN.md" target="_blank" rel="noopener">Live2D</a></p><p>按照官方文档安装Yarn后（很简单），则可以使用下列代码指令安装插件，便安装成功了</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">yarn add hexo-helper-live2d</span><br></pre></td></tr></table></figure>]]></content>
     
@@ -35,6 +35,14 @@
     </summary>
     
     
+      <category term="Blogs" scheme="https://acgnamo.github.io/categories/Blogs/"/>
+    
+    
+      <category term="hexo" scheme="https://acgnamo.github.io/tags/hexo/"/>
+    
+      <category term="Tips" scheme="https://acgnamo.github.io/tags/Tips/"/>
+    
+      <category term="Next" scheme="https://acgnamo.github.io/tags/Next/"/>
     
   </entry>
   

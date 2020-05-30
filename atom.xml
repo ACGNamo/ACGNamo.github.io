@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://acgnamo.github.io/"/>
-  <updated>2020-05-28T15:06:27.887Z</updated>
+  <updated>2020-05-30T07:21:50.720Z</updated>
   <id>https://acgnamo.github.io/</id>
   
   <author>
@@ -17,11 +17,39 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>规划IP地址之子网划分</title>
+    <link href="https://acgnamo.github.io/2020/05/30/wangluojishu1/"/>
+    <id>https://acgnamo.github.io/2020/05/30/wangluojishu1/</id>
+    <published>2020-05-30T06:25:19.000Z</published>
+    <updated>2020-05-30T07:21:50.720Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="规划IP地址之子网划分"><a href="#规划IP地址之子网划分" class="headerlink" title="规划IP地址之子网划分"></a>规划IP地址之子网划分</h1><h3 id="什么是子网划分？"><a href="#什么是子网划分？" class="headerlink" title="什么是子网划分？"></a>什么是子网划分？</h3><p>​    子网划分指网络管理员将本单位一个确定的网络分为若干个更小的部分，而这些更小的部分便称为子网。</p><h3 id="为什么要子网划分？"><a href="#为什么要子网划分？" class="headerlink" title="为什么要子网划分？"></a>为什么要子网划分？</h3><p>​     一般来讲直接使用A类地址,B类地址,C类地址很难满足灵活的组网需求，所以，人们提出子网划分的概念。</p><h3 id="定长子网掩码划分子网"><a href="#定长子网掩码划分子网" class="headerlink" title="定长子网掩码划分子网"></a><strong>定长子网掩码划分子网</strong></h3><p>子网划分的原理是将二级IP地址划分成三级IP。</p><p>具体过程是将主机号借N位作为子网号，这样既可把一个大网络划分成<strong>2的N次方</strong>个小的子网。</p><p>从结果来看，外部划分后看不出变化，但是内部，IP地址呗等分为若干个子网的话，网络号位数和子网掩码也发生了变化。</p><p>由于子网和网络号位数相同，因此取值为1的子网掩码位数也相等，这种划分方法我们称为定长子网掩码划分方法【FLSM】</p><p>但是</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h1 id=&quot;规划IP地址之子网划分&quot;&gt;&lt;a href=&quot;#规划IP地址之子网划分&quot; class=&quot;headerlink&quot; title=&quot;规划IP地址之子网划分&quot;&gt;&lt;/a&gt;规划IP地址之子网划分&lt;/h1&gt;&lt;h3 id=&quot;什么是子网划分？&quot;&gt;&lt;a href=&quot;#什么是子网划分？&quot;
+      
+    
+    </summary>
+    
+    
+      <category term="Blogs" scheme="https://acgnamo.github.io/categories/Blogs/"/>
+    
+    
+      <category term="HCNA" scheme="https://acgnamo.github.io/tags/HCNA/"/>
+    
+      <category term="网络技术" scheme="https://acgnamo.github.io/tags/%E7%BD%91%E7%BB%9C%E6%8A%80%E6%9C%AF/"/>
+    
+  </entry>
+  
+  <entry>
     <title>Live2D初次使用心得</title>
     <link href="https://acgnamo.github.io/2020/05/26/hello-world/"/>
     <id>https://acgnamo.github.io/2020/05/26/hello-world/</id>
     <published>2020-05-26T12:52:43.121Z</published>
-    <updated>2020-05-28T15:06:27.887Z</updated>
+    <updated>2020-05-30T06:53:51.404Z</updated>
     
     <content type="html"><![CDATA[<h2 id="Live2D的坑"><a href="#Live2D的坑" class="headerlink" title="Live2D的坑"></a>Live2D的坑</h2><h3 id="国内网络不行，npm-下载Live2D-永远失败，最后通过官方文档利用Yarn来进行下载"><a href="#国内网络不行，npm-下载Live2D-永远失败，最后通过官方文档利用Yarn来进行下载" class="headerlink" title="国内网络不行，npm 下载Live2D 永远失败，最后通过官方文档利用Yarn来进行下载"></a>国内网络不行，npm 下载Live2D 永远失败，最后通过官方文档利用Yarn来进行下载</h3><p>Yarn官网: <a href="https://yarn.bootcss.com/" target="_blank" rel="noopener">Yarn</a><br>作者Live2D作品地址<a href="https://github.com/EYHN/hexo-helper-live2d/blob/master/README.zh-CN.md" target="_blank" rel="noopener">Live2D</a></p><p>按照官方文档安装Yarn后（很简单），则可以使用下列代码指令安装插件，便安装成功了</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">yarn add hexo-helper-live2d</span><br></pre></td></tr></table></figure>]]></content>
     
@@ -43,6 +71,8 @@
       <category term="Tips" scheme="https://acgnamo.github.io/tags/Tips/"/>
     
       <category term="Next" scheme="https://acgnamo.github.io/tags/Next/"/>
+    
+      <category term="前端" scheme="https://acgnamo.github.io/tags/%E5%89%8D%E7%AB%AF/"/>
     
   </entry>
   

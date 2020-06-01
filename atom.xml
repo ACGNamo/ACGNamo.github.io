@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://acgnamo.github.io/"/>
-  <updated>2020-05-30T07:21:50.720Z</updated>
+  <updated>2020-05-30T16:57:03.605Z</updated>
   <id>https://acgnamo.github.io/</id>
   
   <author>
@@ -21,9 +21,9 @@
     <link href="https://acgnamo.github.io/2020/05/30/wangluojishu1/"/>
     <id>https://acgnamo.github.io/2020/05/30/wangluojishu1/</id>
     <published>2020-05-30T06:25:19.000Z</published>
-    <updated>2020-05-30T07:21:50.720Z</updated>
+    <updated>2020-05-30T16:57:03.605Z</updated>
     
-    <content type="html"><![CDATA[<h1 id="规划IP地址之子网划分"><a href="#规划IP地址之子网划分" class="headerlink" title="规划IP地址之子网划分"></a>规划IP地址之子网划分</h1><h3 id="什么是子网划分？"><a href="#什么是子网划分？" class="headerlink" title="什么是子网划分？"></a>什么是子网划分？</h3><p>​    子网划分指网络管理员将本单位一个确定的网络分为若干个更小的部分，而这些更小的部分便称为子网。</p><h3 id="为什么要子网划分？"><a href="#为什么要子网划分？" class="headerlink" title="为什么要子网划分？"></a>为什么要子网划分？</h3><p>​     一般来讲直接使用A类地址,B类地址,C类地址很难满足灵活的组网需求，所以，人们提出子网划分的概念。</p><h3 id="定长子网掩码划分子网"><a href="#定长子网掩码划分子网" class="headerlink" title="定长子网掩码划分子网"></a><strong>定长子网掩码划分子网</strong></h3><p>子网划分的原理是将二级IP地址划分成三级IP。</p><p>具体过程是将主机号借N位作为子网号，这样既可把一个大网络划分成<strong>2的N次方</strong>个小的子网。</p><p>从结果来看，外部划分后看不出变化，但是内部，IP地址呗等分为若干个子网的话，网络号位数和子网掩码也发生了变化。</p><p>由于子网和网络号位数相同，因此取值为1的子网掩码位数也相等，这种划分方法我们称为定长子网掩码划分方法【FLSM】</p><p>但是</p>]]></content>
+    <content type="html"><![CDATA[<h1 id="规划IP地址之子网划分"><a href="#规划IP地址之子网划分" class="headerlink" title="规划IP地址之子网划分"></a>规划IP地址之子网划分</h1><h3 id="什么是子网划分？"><a href="#什么是子网划分？" class="headerlink" title="什么是子网划分？"></a>什么是子网划分？</h3><p>​    子网划分指网络管理员将本单位一个确定的网络分为若干个更小的部分，而这些更小的部分便称为子网。</p><h3 id="为什么要子网划分？"><a href="#为什么要子网划分？" class="headerlink" title="为什么要子网划分？"></a>为什么要子网划分？</h3><p>​     一般来讲直接使用A类地址,B类地址,C类地址很难满足灵活的组网需求，所以，人们提出子网划分的概念。</p><h3 id="定长子网掩码划分子网"><a href="#定长子网掩码划分子网" class="headerlink" title="定长子网掩码划分子网"></a><strong>定长子网掩码划分子网</strong></h3><p>子网划分的原理是将二级IP地址划分成三级IP。</p><p>具体过程是将主机号借N位作为子网号，这样既可把一个大网络划分成<strong>2的N次方</strong>个小的子网。</p><p>从结果来看，外部划分后看不出变化，但是内部，IP地址呗等分为若干个子网的话，网络号位数和子网掩码也发生了变化。</p><p>由于子网和网络号位数相同，因此取值为1的子网掩码位数也相等，这种划分方法我们称为定长子网掩码划分方法【FLSM】</p>]]></content>
     
     <summary type="html">
     
